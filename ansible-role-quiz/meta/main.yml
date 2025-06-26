@@ -1,16 +1,21 @@
 galaxy_info:
   role_name: quiz
   author: maadjid
-  description: "Un rôle Ansible pour déployer un quiz"
+  description: A role to deploy a quiz application
   license: MIT
   min_ansible_version: 2.9
   platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
     - name: Ubuntu
       versions:
         - focal
         - jammy
   galaxy_tags:
     - quiz
-    - example
+    - app
+    - demo
 
 dependencies: []
